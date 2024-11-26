@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ffc300;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+    flex-direction: column;
+} 
+
+ h3{
+    height: 80px;
+    color: #219ebc;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box{
+    height: 120px;
+    width: 120px;
+    border-radius:10px;
+    background-color:whitesmoke;
+    border: none;
+    box-shadow: 8px 8px 8px black;
+    font-size: 50px;
+    color:#023047;
+}
+
+#Rst-btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px black;
+    background-color: #219ebc;
+    color: whitesmoke;
+} 
+
+.msg-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#new-btn{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px black;
+    background-color: #219ebc;
+    color: whitesmoke;
+} 
+
+#msg{
+    font-size: 35px;
+}
+
+.hide{
+    display: none;
+}
