@@ -25,14 +25,7 @@ body{
     width: 500px;
     display: flex;
     justify-content: center;
-}
-
-.game{
-    height: 400px;
-    width: 400px;
-    display: flex;
     flex-wrap:wrap;
-    justify-content: center;
     gap: 15px;
 }
 
